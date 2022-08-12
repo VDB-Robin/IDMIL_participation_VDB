@@ -1,0 +1,28 @@
+#N canvas 1226 29 450 300 12;
+#X obj 158 167 Ring_modulation_VDB;
+#X obj 216 250 dac~;
+#X obj 60 60 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 347 59 1.5;
+#X msg 252 60 50;
+#X msg 251 31 20;
+#X msg 253 90 75;
+#X msg 166 60 500;
+#X msg 127 30 0;
+#X msg 168 30 200;
+#X msg 127 62 750;
+#X msg 345 86 1.7;
+#X msg 346 33 1.3;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 0 0;
+#X connect 3 0 0 3;
+#X connect 4 0 0 2;
+#X connect 5 0 0 2;
+#X connect 6 0 0 2;
+#X connect 7 0 0 1;
+#X connect 8 0 0 1;
+#X connect 9 0 0 1;
+#X connect 10 0 0 1;
+#X connect 11 0 0 3;
+#X connect 12 0 0 3;
