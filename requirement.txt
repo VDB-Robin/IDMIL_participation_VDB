@@ -1,0 +1,24 @@
+REQUIEREMENT
+
+To work properly the generator needs a number of libraries in addition to a python installation (Conda/Anaconda recommended).
+Also, be careful with the versions selected during installation, as you should not work with the latest versions of all libraries.
+
+python == 3.7
+tensorflow == 1.15
+magenta == 2.1
+
+
+Caution with the installation of Magenta :
+pip install magenta
+sudo apt-get install build-essential libasound2-dev libjack-dev portaudio19-dev
+git clone https://github.com/tensorflow/magenta.git
+pip install -e .
+pip install . (if problem)
+
+For more details see the link below ( github of Magenta) :
+https://github.com/magenta/magenta
+
+
+Small other libraries such as mido or pygame are also necessary for the code to work properly. 
+Nevertheless, unlike the three others, there is no particular problem of installation for these other dependencies. 
+The easiest way is to run the code and install the libraries requested by the error messages.
