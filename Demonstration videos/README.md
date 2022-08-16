@@ -1,4 +1,4 @@
-### Demonstration videos
+# Demonstration videos
 
 A demonstration of the use of the generator is available under this link :
 https://drive.google.com/drive/folders/1NfwvkbF0kaEsW3Y7o4UwGgt3dnXi1xW1?usp=sharing
