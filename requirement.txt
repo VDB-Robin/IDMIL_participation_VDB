@@ -15,7 +15,7 @@ git clone https://github.com/tensorflow/magenta.git
 pip install -e .
 pip install . (if problem)
 
-For more details see the link below ( github of Magenta) :
+For more details see the link below (github of Magenta) :
 https://github.com/magenta/magenta
 
 
