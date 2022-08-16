@@ -4,6 +4,7 @@ To work properly the generator needs a number of libraries in addition to a pyth
 Also, be careful with the versions selected during installation, as you should not work with the latest versions of all libraries.
 
 python == 3.7
+numpy == 1.19 (Attention, necessary to downgrade to this version!)
 tensorflow == 1.15
 magenta == 2.1
 
@@ -22,3 +23,11 @@ https://github.com/magenta/magenta
 Small other libraries such as mido or pygame are also necessary for the code to work properly. 
 Nevertheless, unlike the three others, there is no particular problem of installation for these other dependencies. 
 The easiest way is to run the code and install the libraries requested by the error messages.
+
+
+
+NOTES
+
+During imports, it is very probable that you will get an error message mentioning a problem with "llvmlite".
+To fix this problem: Run "pip install llvmlite --ignore-installed". 
+Then retype the "pip install ... (the library you are trying to import)".
