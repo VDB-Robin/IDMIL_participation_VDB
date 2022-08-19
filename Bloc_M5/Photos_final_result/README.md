@@ -1,1 +1,1 @@
-Pictures of the final result
+Pictures of the final result.
