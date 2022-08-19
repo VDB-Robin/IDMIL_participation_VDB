@@ -1,1 +1,1 @@
-Photos of the welding phase
+Photos of the welding phase.
