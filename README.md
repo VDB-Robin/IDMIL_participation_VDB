@@ -37,10 +37,19 @@ In this directory you will find various elements:
 *The objective of the generator is the creation of a continuous unpredictable music stream of appreciable quality. The creation of this stream is achieved through the use of artificial intelligence. The output of the generator is either a MIDI or an audio stream (as the generator also has an internal synthesis available, which is very useful in a testing context).*
 
 
-
+To make the code work, after installing everything necessary (see requirements), you just have to launch the main python code. Be careful, also to have downloaded the complete "Operating_files" folder. Moreover, it is necessary to change in the code the path to where you have placed this folder. To save time during the execution it is also advised to change the pre-selected midi port.
 
 
 Note that it is perfectly possible to re-train a neural network and to continue to use this code. The only thing is to change the trained network in the "Operating_files/checkpoints_IA" and to check its correct referencing in the main code. For more information about the training, see the GitHub pages of the Google Magenta project.
+
+
+### Generator menu
+
+1. __Loop__ : as the generator creates continuously, it is not initially intended to stagnate on one of the generated sequences. However, thanks to this command the user can ask the system to loop on the sequence he is reading. Once the user is bored of this loop, he can resume the classic sequence path thanks to this same command.
+2. __Pause__ : elementary, but useful, the playback can be paused without cutting off the generating part.
+3. __Activate the conditioned mode__ : this specific mode consists of using a small MIDI file to extend it. The user thus has the possibility of working on files selected or recorded by himself in the generation process. This continuation thus represents a generation conditioned by a small sequence from the user.
+4. __Volume__ : in case the user wants to keep the internal audio synthesis of the generator, he can modify the volume of this audio production.
+5. __Turn off the system__ : nothing lasts forever, the user's desire to use the generator is no exception.
 
 
 ## Notes
