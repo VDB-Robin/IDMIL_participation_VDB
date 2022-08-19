@@ -23,7 +23,7 @@ In this directory you will find various elements:
 
 5. __Probatio_generator_V5.py__ : Python file of the generator.
 
-6. __Probatio_generator_RPi_onlineGen.py__ : Python file of the generator modified for online generation. For its operation, the generation can be placed in any online processing medium, such as Google Colab for example. This code works by analysing the download folder of the device on which this python code is running and will manage the correct creation of the midi stream.
+6. __Probatio_generator_RPi_onlineGen.py__ : Python file of the generator modified for online generation. For its operation, the generation can be placed in any online processing medium, such as Google Colab for example. This code works by analysing the download folder of the device on which this python code is running and will manage the correct creation of the MIDI stream. This code has been verified and successfully run in a proof of concept using Google Colab and a Raspberry Pi.
 
 7. __requierement.txt__ : File explaining all the dependencies and installation needs for the generator to work properly.
 
@@ -35,6 +35,12 @@ In this directory you will find various elements:
 ## Use of the generator
 
 *The objective of the generator is the creation of a continuous unpredictable music stream of appreciable quality. The creation of this stream is achieved through the use of artificial intelligence. The output of the generator is either a MIDI or an audio stream (as the generator also has an internal synthesis available, which is very useful in a testing context).*
+
+
+
+
+
+Note that it is perfectly possible to re-train a neural network and to continue to use this code. The only thing is to change the trained network in the "operating_files/checkpoints_IA" and to check its correct referencing in the main code. For more information about the training, see the GitHub pages of the Google Magenta project.
 
 
 ## Notes
