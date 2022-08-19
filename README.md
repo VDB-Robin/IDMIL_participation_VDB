@@ -32,4 +32,15 @@ In this directory you will find various elements:
 9. __TFE_VANDEBROUCK_Robin.pdf__ : Report describing the participation.
 
 
-## Utilization
+## Use of the generator
+
+*The objective of the generator is the creation of a continuous unpredictable music stream of appreciable quality. The creation of this stream is achieved through the use of artificial intelligence. The output of the generator is either a MIDI or an audio stream (as the generator also has an internal synthesis available, which is very useful in a testing context).*
+
+
+## Notes
+
+This work is based on "Generating Piano Music with Transformer" by __Ian Simon, Anna Huang, Jesse Engel, Curtis "Fjord" Hawthorne__.
+
+This code lets you play with pretrained [Transformer](https://arxiv.org/abs/1706.03762) models for piano music generation, based on the [Music Transformer](http://g.co/magenta/music-transformer) model introduced by [Huang et al.](https://arxiv.org/abs/1809.04281) in 2018.
+
+The models used here were trained on over 10,000 hours of piano recordings from YouTube, transcribed using [Onsets and Frames](http://g.co/magenta/onsets-frames) and represented using the event vocabulary from [Performance RNN](http://g.co/magenta/performance-rnn).
