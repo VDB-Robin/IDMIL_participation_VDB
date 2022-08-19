@@ -37,7 +37,7 @@ In this directory you will find various elements:
 *The objective of the generator is the creation of a continuous unpredictable music stream of appreciable quality. The creation of this stream is achieved through the use of artificial intelligence. The output of the generator is either a MIDI or an audio stream (as the generator also has an internal synthesis available, which is very useful in a testing context).*
 
 
-To make the code work, after installing everything necessary (see requirements), you just have to launch the main python code. Be careful, also to have downloaded the complete "Operating_files" folder. Moreover, it is necessary to change in the code the path to where you have placed this folder (variable abs_path_to_the_project, ligne 4 ). To save time during the execution it is also advised to change the pre-selected midi port (variable preselected_midi_port, ligne 5).
+To make the code work, after installing everything necessary (see requirements), you just have to launch the main python code. Be careful, also to have downloaded the complete "Operating_files" folder. Moreover, it is necessary to change in the code the path to where you have placed this folder (variable abs_path_to_the_project, ligne 4). To save time during the execution it is also advised to change the pre-selected midi port (variable preselected_midi_port, ligne 5).
 
 
 Also note that in the "Operating_files" folder, you have the "generated_sequences" and "record" folders. The first one will host the creations of the generator and the second one is the folder where you can place small MIDI files for the conditioned mode. As far as the generated files are concerned, you can see that they are an average of one minute long, because the generator works by creating small MIDI files that it uses to create a continuous flow. So, if the user liked a part of the stream, he can find the extract in this folder. Be careful though, the generator writes over the already created files. It is thus necessary to collect the MIDI files before restarting the generator if they interest the user.
@@ -57,7 +57,19 @@ Note that it is perfectly possible to re-train a neural network and to continue 
 
 ## Summary: Make the generator work properly
 
+1. Install everything that is necessary in terms of dependencies (requierement).
 
+2. Download the Operating_files folder.
+
+3. Change the direction in the code to the address of the Operating_files folder in your device (variable abs_path_to_the_project, line 4).
+
+4. Optional: To save time during execution, also replace the variable of the preselected MIDI port (variable preselected_midi_port, line 5).
+
+5. Run the code and install any missing python libraries.
+
+6. If you are using an audio synthesis software, make sure you have opened it and that it is correctly "connected" to the generator thanks to a good MIDI port selection (if needed see LoopMIDI, to create a virtual port on your computer).
+
+7. Enjoy and interact with the menu (to make it reappear in the console, you can press enter at any time).
 
 
 ## Notes
