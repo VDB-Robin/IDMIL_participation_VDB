@@ -40,7 +40,7 @@ In this directory you will find various elements:
 
 
 
-Note that it is perfectly possible to re-train a neural network and to continue to use this code. The only thing is to change the trained network in the "operating_files/checkpoints_IA" and to check its correct referencing in the main code. For more information about the training, see the GitHub pages of the Google Magenta project.
+Note that it is perfectly possible to re-train a neural network and to continue to use this code. The only thing is to change the trained network in the "Operating_files/checkpoints_IA" and to check its correct referencing in the main code. For more information about the training, see the GitHub pages of the Google Magenta project.
 
 
 ## Notes
