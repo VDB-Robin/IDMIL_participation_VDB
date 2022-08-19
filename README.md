@@ -55,6 +55,11 @@ Note that it is perfectly possible to re-train a neural network and to continue 
 5. __Turn off the system__ : nothing lasts forever, the user's desire to use the generator is no exception.
 
 
+## Summary: Make the generator work properly
+
+
+
+
 ## Notes
 
 This work is based on "Generating Piano Music with Transformer" by __Ian Simon, Anna Huang, Jesse Engel, Curtis "Fjord" Hawthorne__.
