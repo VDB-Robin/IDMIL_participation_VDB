@@ -13,23 +13,23 @@ The "Embedded_audio_processing" folder is a complement to the generator and aims
 
 In this directory you will find various elements:
 
-1. Block_M5: Folder containing the STL files to be printed for the conception of the Probatio block maintaining the M5 module.
+1. __Block_M5__ : Folder containing the STL files to be printed for the conception of the Probatio block maintaining the M5 module.
 
-2. Embedded_audio_processing : Folder containing the processing logic for an embedded aspect of the Probatio interaction logic and the audio synthesis.
+2. __Embedded_audio_processing__ : Folder containing the processing logic for an embedded aspect of the Probatio interaction logic and the audio synthesis.
 
-3. Operating_files: Folder containing the material necessary for the intelligent music generator to function properly.
+3. __Operating_files__ : Folder containing the material necessary for the intelligent music generator to function properly.
 
-4. Demonstration videos : Folder containing a demonstration video of the use of Probatio with the generator.
+4. __Demonstration videos__ : Folder containing a demonstration video of the use of Probatio with the generator.
 
-5. Probatio_generator_V5.py : Python file of the generator.
+5. __Probatio_generator_V5.py__ : Python file of the generator.
 
-6. Probatio_generator_RPi_onlineGen.py : Python file of the generator modified for online generation. For its operation, the generation can be placed in any online processing medium, such as Google Colab for example. This code works by analysing the download folder of the device on which this python code is running and will manage the correct creation of the midi stream.
+6. __Probatio_generator_RPi_onlineGen.py__ : Python file of the generator modified for online generation. For its operation, the generation can be placed in any online processing medium, such as Google Colab for example. This code works by analysing the download folder of the device on which this python code is running and will manage the correct creation of the midi stream.
 
-7. requierement.txt : File explaining all the dependencies and installation needs for the generator to work properly.
+7. __requierement.txt__ : File explaining all the dependencies and installation needs for the generator to work properly.
 
-8. Informative presentation : Power point presentation of the participation.
+8. __Informative presentation.pptx__ : Power point presentation of the participation.
 
-9. TFE_VANDEBROUCK_Robin : Report describing the participation.
+9. __TFE_VANDEBROUCK_Robin.pdf__ : Report describing the participation.
 
 
 ## Utilization
